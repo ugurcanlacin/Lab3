@@ -7,6 +7,7 @@
 euclidean(m, n)
 }
 \arguments{
+<<<<<<< HEAD
 \item{m}{number}
 
 \item{n}{number}

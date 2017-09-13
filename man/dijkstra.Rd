@@ -10,7 +10,6 @@ dijkstra(graph, init_node)
 \item{graph}{Data Frame of Graph}
 
 \item{init_node}{Numeric Scalar Input}
-
 }
 \value{
 Return a Numeric Vector with the shortest path between nodes in the graph.
