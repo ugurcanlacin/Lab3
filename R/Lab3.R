@@ -1,11 +1,6 @@
 name <- "Ugurcan Lacin"
 liuid <- "ugula687"
 
-# library(markmyassignment)
-# lab_path <-
-#   "https://raw.githubusercontent.com/STIMALiU/AdvRCourse/master/Labs/Tests/lab3.yml"
-# set_assignment(lab_path)
-
 # 1.1.1
 euclidean <- function(m,n){
   if(!is.numeric(m) || !is.numeric(n)){
