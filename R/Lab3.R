@@ -3,8 +3,8 @@ liuid <- "ugula687"
 
 #' @title Euclidean Algorithm Implementation
 #' @name  euclidean
-#' @param one number
-#' @param two number
+#' @param m number
+#' @param n number
 #' @return Greatest Common Divisor of two Numbers by Euclidean Algorithm
 #' @description Euclidean Algorithm Implementation to find the Greatest Common Divisor(GCD) of two numbers one and two param 
 #' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
@@ -23,8 +23,16 @@ euclidean <- function(m,n){
 
 #' @title Dijkstra Algorithm Implementation
 #' @name  dijkstra 
-#' @param Graph Data Frame of Graph
-#' @param  Init_node Numeric Scalar Input
+#' @param graph Data Frame of Graph
+#' @param  init_node Numeric Scalar Input
+#' 
+#' @param  previous Numeric Scalar Input
+#' @param  distance Numeric Scalar Input
+#' @param  Q Numeric Scalar Input
+#' @param  u Numeric Scalar Input
+#' @param  dist Numeric Scalar Input
+#' @param  alt Numeric Scalar Input
+#' @param wiki_graph asd
 #' @return Return a Numeric Vector with the shortest path between nodes in the graph.
 #' @description Dijkstra Algorithm to find the shortest path between nodes in the graph giving a shortest path vector. 
 #' @references \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
@@ -78,9 +86,9 @@ dijkstra <- function(graph, init_node){
 
 #' @title wiki_graph
 #' @name  wiki_graph 
-#' @param Vector v1 A numeric scalar
-#' @param Vector v2 A numeric scalar
-#' @param Vector w A numeric scalar
+#' @param v1 A numeric scalar
+#' @param v2 A numeric scalar
+#' @param w A numeric scalar
 #' @description wiki_graph
 #' @references \url{https://en.wikipedia.org/wiki/Graph}
 ## wiki_graph

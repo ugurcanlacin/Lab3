@@ -9,10 +9,6 @@
 wiki_graph
 }
 \arguments{
-\item{Vector}{v1 A numeric scalar}
-
-\item{Vector}{v2 A numeric scalar
-#' @param Vector w A numeric scalar}
 }
 \description{
 wiki_graph

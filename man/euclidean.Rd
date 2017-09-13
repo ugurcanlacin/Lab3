@@ -2,20 +2,20 @@
 % Please edit documentation in R/Lab3.R
 \name{euclidean}
 \alias{euclidean}
-\title{euclidean Algorithm}
+\title{Euclidean Algorithm Implementation}
 \usage{
 euclidean(m, n)
 }
 \arguments{
-\item{a}{number}
+\item{m}{number}
 
-\item{b}{number}
+\item{n}{number}
 }
 \value{
-greatest common divisor of two numbers
+Greatest Common Divisor of two Numbers by Euclidean Algorithm
 }
 \description{
-euclidean algorithm to find the greatest common divisor of two numbers
+Euclidean Algorithm Implementation to find the Greatest Common Divisor(GCD) of two numbers one and two param
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
