@@ -1,7 +1,14 @@
 name <- "Ugurcan Lacin"
 liuid <- "ugula687"
 
-# 1.1.1
+#' @title euclidean Algorithm
+#' @name  euclidean
+#' @param a number
+#' @param b number
+#' @return greatest common divisor of two numbers
+#' @description euclidean algorithm to find the greatest common divisor of two numbers 
+#' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+## euclidean
 euclidean <- function(m,n){
   if(!is.numeric(m) || !is.numeric(n)){
     stop()
@@ -13,6 +20,14 @@ euclidean <- function(m,n){
 # aa <- euclidean(123612, 13892347912)
 # aa <-  euclidean(100, 1000)
 
+#' @title Dijkstra Algorithm
+#' @name  dijkstra 
+#' @param Graph A data Frame
+#' @param  Init_node A numeric scalar
+#' @return Numeric Vector with the shortest distance between nodes
+#' @description Finding the shortest distance between nodes using the Dijkstra algorithem 
+#' @references \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+## dijkstra
 dijkstra <- function(graph, init_node){
   
   if(is.numeric(init_node) &
