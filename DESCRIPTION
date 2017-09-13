@@ -8,3 +8,4 @@ Maintainer: <fahha780@student.liu.se>
 Description: More about what it does (maybe more than one line)
 License: Apache
 RoxygenNote: 6.0.1
+Suggests: testthat
