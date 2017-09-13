@@ -1,13 +1,14 @@
 name <- "Ugurcan Lacin"
 liuid <- "ugula687"
 
-#' @title euclidean Algorithm
+#' @title Euclidean Algorithm Implementation
 #' @name  euclidean
-#' @param a number
-#' @param b number
-#' @return greatest common divisor of two numbers
-#' @description euclidean algorithm to find the greatest common divisor of two numbers 
+#' @param one number
+#' @param two number
+#' @return Greatest Common Divisor of two Numbers by Euclidean Algorithm
+#' @description Euclidean Algorithm Implementation to find the Greatest Common Divisor(GCD) of two numbers one and two param 
 #' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
+
 ## euclidean
 euclidean <- function(m,n){
   if(!is.numeric(m) || !is.numeric(n)){
@@ -20,13 +21,14 @@ euclidean <- function(m,n){
 # aa <- euclidean(123612, 13892347912)
 # aa <-  euclidean(100, 1000)
 
-#' @title Dijkstra Algorithm
+#' @title Dijkstra Algorithm Implementation
 #' @name  dijkstra 
-#' @param Graph A data Frame
-#' @param  Init_node A numeric scalar
-#' @return Numeric Vector with the shortest distance between nodes
-#' @description Finding the shortest distance between nodes using the Dijkstra algorithem 
+#' @param Graph Data Frame of Graph
+#' @param  Init_node Numeric Scalar Input
+#' @return Return a Numeric Vector with the shortest path between nodes in the graph.
+#' @description Dijkstra Algorithm to find the shortest path between nodes in the graph giving a shortest path vector. 
 #' @references \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
+
 ## dijkstra
 dijkstra <- function(graph, init_node){
   
