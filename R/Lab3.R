@@ -80,7 +80,7 @@ dijkstra <- function(graph, init_node){
 #' @name  wiki_graph 
 #' @param Vector v1 A numeric scalar
 #' @param Vector v2 A numeric scalar
-#' #' @param Vector w A numeric scalar
+#' @param Vector w A numeric scalar
 #' @description wiki_graph
 #' @references \url{https://en.wikipedia.org/wiki/Graph}
 ## wiki_graph
