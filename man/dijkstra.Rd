@@ -2,20 +2,20 @@
 % Please edit documentation in R/Lab3.R
 \name{dijkstra}
 \alias{dijkstra}
-\title{Dijkstra Algorithm}
+\title{Dijkstra Algorithm Implementation}
 \usage{
 dijkstra(graph, init_node)
 }
 \arguments{
-\item{Graph}{A data Frame}
+\item{Graph}{Data Frame of Graph}
 
-\item{Init_node}{A numeric scalar}
+\item{Init_node}{Numeric Scalar Input}
 }
 \value{
-Numeric Vector with the shortest distance between nodes
+Return a Numeric Vector with the shortest path between nodes in the graph.
 }
 \description{
-Finding the shortest distance between nodes using the Dijkstra algorithem
+Dijkstra Algorithm to find the shortest path between nodes in the graph giving a shortest path vector.
 }
 \references{
 \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
