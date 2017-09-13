@@ -76,7 +76,14 @@ dijkstra <- function(graph, init_node){
   return(distance)
 }
 
-
+#' @title wiki_graph
+#' @name  wiki_graph 
+#' @param Vector v1 A numeric scalar
+#' @param Vector v2 A numeric scalar
+#' #' @param Vector w A numeric scalar
+#' @description wiki_graph
+#' @references \url{https://en.wikipedia.org/wiki/Graph}
+## wiki_graph
 wiki_graph <-
   data.frame(v1=c(1,1,1,2,2,2,3,3,3,3,4,4,4,5,5,6,6,6),
              v2=c(2,3,6,1,3,4,1,2,4,6,2,3,5,4,6,1,3,5),

@@ -13,7 +13,7 @@
 The DESCRIPTION file:
 \packageDESCRIPTION{UgurcanFahaadLab3}
 \packageIndices{UgurcanFahaadLab3}
-~~ An overview of how to use the package, including the most important functions ~~
+  There are two functions, such as, euclidean and dijkstra.
 }
 \author{
 \packageAuthor{UgurcanFahaadLab3}
@@ -21,14 +21,15 @@ The DESCRIPTION file:
 Maintainer: \packageMaintainer{UgurcanFahaadLab3}
 }
 \references{
-~~ Literature or other references for background information ~~
+  https://en.wikipedia.org/wiki/Euclidean_algorithm
+  https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm
 }
-~~ Optionally other standard keywords, one per line, from file KEYWORDS in the R documentation directory ~~
+
 \keyword{ package }
 \seealso{
-~~ Optional links to other man pages, e.g. ~~
-~~ \code{\link[<pkg>:<pkg>-package]{<pkg>}} ~~
+
+
 }
 \examples{
-~~ simple examples of the most important functions ~~
+
 }
