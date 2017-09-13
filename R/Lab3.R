@@ -29,7 +29,7 @@ euclidean <- function(m,n){
 #' @description Dijkstra Algorithm to find the shortest path between nodes in the graph giving a shortest path vector. 
 #' @references \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 
-## dijkstra
+## Dijkstra Algorithm
 dijkstra <- function(graph, init_node){
   
   if(is.numeric(init_node) &
