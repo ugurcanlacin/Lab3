@@ -9,7 +9,7 @@ liuid <- "ugula687"
 #' @description Euclidean Algorithm Implementation to find the Greatest Common Divisor(GCD) of two numbers one and two param 
 #' @references \url{https://en.wikipedia.org/wiki/Euclidean_algorithm}
 
-# Euclidean Algorithm
+## Euclidean Algorithm
 euclidean <- function(m,n){
   if(!is.numeric(m) || !is.numeric(n)){
     stop()
