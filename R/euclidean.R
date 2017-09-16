@@ -1,5 +1,5 @@
-name <- "Ugurcan Lacin"
-liuid <- "ugula687"
+name <- "Ugurcan Lacin Fahad Hameed"
+liuid <- "ugula687 fahha780"
 
 #' @title Euclidean Algorithm Implementation
 #' @name  euclidean
