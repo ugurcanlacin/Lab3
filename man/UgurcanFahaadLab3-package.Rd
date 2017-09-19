@@ -27,9 +27,6 @@ Maintainer: \packageMaintainer{UgurcanFahaadLab3}
 
 \keyword{ package }
 \seealso{
-
-
 }
 \examples{
-
 }
