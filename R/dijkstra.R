@@ -8,22 +8,18 @@ liuid <- "ugula687 fahha780"
 #' @return Return a Numeric Vector with the shortest path between nodes in the graph.
 #' @description Dijkstra Algorithm to find the shortest path between nodes in the graph giving a shortest path vector. 
 #' @references \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
-
+#' @export
 ## Dijkstra Algorithm
 dijkstra <- function(graph, init_node){
   
   if(is.numeric(init_node) &
-     is.atomic(init_node) &
      is.data.frame(graph) &
      (length(graph[[1]]) == length(graph[[2]])) &
      (length(graph[[2]]) == length(graph[[3]])) &
      all(colnames(graph) == c("v1", "v2", "w")) &
-     length(colnames(graph)) == 3 &
      (init_node %in% graph[[1]] || init_node %in% graph[[2]])
-     
   ){
     
-    # Initialize
     previous <- c()
     distance <- c()
     Q <- c()
@@ -31,7 +27,7 @@ dijkstra <- function(graph, init_node){
     for(i in unique(c(graph$v1, graph$v2))){
       previous[i] <- NA
       distance[i] <- Inf
-      Q <- c(Q,i) # Node which are not part of the path yet
+      Q <- c(Q,i)
     }
     
     distance[init_node] <- 0
