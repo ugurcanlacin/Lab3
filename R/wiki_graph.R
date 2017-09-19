@@ -1,16 +1,15 @@
+
 #' Wiki_graph
-#' 
+#'
 #' A dataframe that contains the nodes and the weights between them - a simulation of the graph from wikipedia
-#' 
-#' @title wiki_graph
-#' @name  wiki_graph W
-#' @description wiki_graph
-#' \itemize{
-#'   \item v1 numeric vector
-#'   \item v2 numeric vector
-#'   \item w numeric vector
+#'
+#' @format A data frame with 18 rows and 3 variables:
+#' \describe{
+#'   \item{v1}{node}
+#'   \item{v2}{node}
+#'   \item{w}{weight between v1 and v2 nodes}
 #' }
-#' @references \url{https://en.wikipedia.org/wiki/Graph}
+#' @source \url{https://en.wikipedia.org/wiki/Dijkstra\%27s_algorithm}
 "wiki_graph"
 
 
