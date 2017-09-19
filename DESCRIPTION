@@ -6,6 +6,6 @@ Date: 2017-09-13
 Author: Fahad Hameed and Ugurcan Lacin
 Maintainer: <fahha780@student.liu.se>
 Description: Lab 3 Implementation for Euclidean and Dikjstra Algorithm.
-License: Apache
+License: GPL-2
 RoxygenNote: 6.0.1
 Suggests: testthat
